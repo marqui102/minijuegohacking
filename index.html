@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minijuego de Hacking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>Hacking Game</h1>
+    <p>¡Bienvenido al minijuego de hacking! Para hackear, activa la VPN. Si no lo haces, se registrará tu IP.</p>
+
+    <button id="vpnButton">Activar VPN</button>
+    
+    <div id="gameBoard">
+      <button class="gameTile" onclick="hackTile()">Hackear</button>
+      <button class="gameTile" onclick="hackTile()">Hackear</button>
+      <button class="gameTile" onclick="hackTile()">Hackear</button>
+    </div>
+    
+    <div id="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
